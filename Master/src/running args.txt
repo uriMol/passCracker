@@ -1,0 +1,15 @@
+Run these 2 commands, first one is to compile the files and 2nd is running master with its argument:
+
+
+javac MD5.java & javac Master.java & javac MinionHolder.java & javac MyCallable.java
+
+java Master http://localhost <num of ports> <first port> <input file.txt>
+
+
+
+
+example: 
+
+for 5 minions with ports 8090 8091 8092 8093 running locally, run the next command:
+
+java Master http://localhost 5 8090 ./hashes.txt

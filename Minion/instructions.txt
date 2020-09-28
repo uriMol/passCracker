@@ -1,0 +1,11 @@
+
+
+
+
+To install mvn:
+1. run: brew install maven
+
+to run:
+1. get to this repos
+2. run: chmod +x minions_boot_LINUX.sh
+3. run: ./minions_boot_LINUX.sh

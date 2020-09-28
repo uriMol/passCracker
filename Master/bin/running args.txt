@@ -1,0 +1,6 @@
+http://localhost 8090 C:\Users\Uri\eclipse-workspace\Master\src\hashes.txt
+
+
+db21ef9526908dd2584bae0268bad48e
+
+ae66c0cf7049d0197f72758ffb2ee64e
