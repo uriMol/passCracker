@@ -14,7 +14,7 @@ I believe that making this program more efficient and fast was possible by makin
 
 *prerequisites:*
 - Java 8
-- maven '''brew install maven'''
+- maven 'brew install maven'
 - springboot should be included within maven
 
 
