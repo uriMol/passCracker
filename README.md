@@ -27,9 +27,12 @@ Master:
 - place the hashes file in ../passCracker/Master/src
 - compile the files using: javac MD5.java & javac Master.java & javac MinionHolder.java & javac MyCallable.java
 - run master using: java Master http://localhost <num of ports> <first port> <input file.txt>
-	example for running arguments:
+- example for running arguments:
+	
 for 5 minions with ports 8090 8091 8092 8093 8094 running locally, run the next command:
+
 java Master http://localhost 5 8090 ./hashes.txt
+
 - the results will appear in this folder as 'Cracked Password.txt'
 
 
