@@ -10,6 +10,6 @@ java Master http://localhost <num of ports> <first port> <input file.txt>
 
 example: 
 
-for 5 minions with ports 8090 8091 8092 8093 running locally, run the next command:
+for 5 minions with ports 8090 8091 8092 8093 8094 running locally, run the next command:
 
 java Master http://localhost 5 8090 ./hashes.txt

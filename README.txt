@@ -20,6 +20,7 @@ Running:
 
 Minions:
 - go to  ../passCracker/Minion/minions_boot_<LINUX \ WINDOWS>   The default of these files is loading 10 minions in ports 8090 - 8099. if you wish to deter the minions ports, open the file in a text editor and change ports (you can also delete some of the minions by simply deleting a row). the ports currently have to have consecutive port numbers.  
+- run chmod +x minions_boot_<LINUX \ WINDOWS> 
 - run minions_boot_<LINUX \ WINDOWS> to load minions
 
 Master:
