@@ -1,4 +1,4 @@
-Run these 2 commands, first one is to compile the files and 2nd is running master with its argument:
+to load master, run these 2 commands. first one is to compile the files and 2nd is running master with its argument:
 
 
 javac MD5.java & javac Master.java & javac MinionHolder.java & javac MyCallable.java

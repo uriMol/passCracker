@@ -1,7 +1,3 @@
-
-
-
-
 To install mvn:
 1. run: brew install maven
 
