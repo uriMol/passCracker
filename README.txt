@@ -1,4 +1,4 @@
-##About the project
+# About the project
 
 I wrote the entire program in Java. Developing the Minions I used spring boot, a package for developing RESTful web services. To run the program, we first load the minion servers (can use 1 up to 10 minions), and then load the Master with the minions adress and port, and a file with the hashes needed to be solved (see instructions below).
 
@@ -10,7 +10,7 @@ In the end, the master produces a file with the results of the cracked passwords
 I believe that making this program more efficient and fast was possible by making the minions compare to more then 1 hash from the input file, but it would harm the principle of a fast, small and simple Minions handle by the master, so I decided to keep it that way.
 
 
-##Instructions
+# Instructions
 
 prerequisites:
 maven
@@ -19,7 +19,7 @@ Java 8
 Running:
 
 Minions:
-- go to  ../passCracker/Minion/minions_boot_<LINUX \ WINDOWS>   The default of these files is loading 10 minions in ports 8090 - 8099. if you wish to deter the minions, open the file in a text editor and change ports (you can also delete some of the minions by simply deleting a row). the ports currently have to have consecutive port numbers.  
+- go to  ../passCracker/Minion/minions_boot_<LINUX \ WINDOWS>   The default of these files is loading 10 minions in ports 8090 - 8099. if you wish to deter the minions ports, open the file in a text editor and change ports (you can also delete some of the minions by simply deleting a row). the ports currently have to have consecutive port numbers.  
 - run minions_boot_<LINUX \ WINDOWS> to load minions
 
 Master:
