@@ -12,26 +12,28 @@ I believe that making this program more efficient and fast was possible by makin
 
 # Instructions
 
-prerequisites:
-maven
-Java 8
+*prerequisites:*
+- Java 8
+- maven '''brew install maven'''
+- springboot should be included within maven
 
-Running:
+
+*Running:*
 
 Minions:
-- go to  ../passCracker/Minion/minions_boot_<LINUX \ WINDOWS>   The default of these files is loading 10 minions in ports 8090 - 8099. if you wish to deter the minions ports, open the file in a text editor and change ports (you can also delete some of the minions by simply deleting a row). the ports currently have to have consecutive port numbers.  
-- run chmod +x minions_boot_<LINUX \ WINDOWS> 
-- run minions_boot_<LINUX \ WINDOWS> to load minions
+- go to  '''../passCracker/Minion/minions_boot_<LINUX \ WINDOWS>'''   The default of these files is loading 10 minions in ports 8090 - 8099. if you wish to deter the minions ports, open the file in a text editor and change ports (you can also delete some of the minions by simply deleting a row). the ports currently have to have consecutive port numbers.  
+- run '''chmod +x minions_boot_<LINUX \ WINDOWS>''' 
+- run '''minions_boot_<LINUX \ WINDOWS>''' to load minions
 
 Master:
-- place the hashes file in ../passCracker/Master/src
-- compile the files using: javac MD5.java & javac Master.java & javac MinionHolder.java & javac MyCallable.java
-- run master using: java Master http://localhost <NUM_OF_MINIONS> <FIRST_PORT_NUMBER> <INPUT_FILE.txt>
+- place the hashes file in '''../passCracker/Master/src'''
+- compile the files using: '''javac MD5.java & javac Master.java & javac MinionHolder.java & javac MyCallable.java'''
+- run master using: '''java Master http://localhost <NUM_OF_MINIONS> <FIRST_PORT_NUMBER> <INPUT_FILE.txt>'''
 - example for running arguments:
 	
 for 5 minions with ports 8090 8091 8092 8093 8094 running locally, run the next command:
 
-java Master http://localhost 5 8090 ./hashes.txt
+'''java Master http://localhost 5 8090 ./hashes.txt'''
 
 - the results will appear in this folder as 'Cracked Password.txt'
 
